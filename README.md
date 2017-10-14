@@ -1,12 +1,12 @@
 # ExClubhouse
 
-A client library for the [clubhouse.io](https://clubhouse.io/) [v2 REST](https://clubhouse.io/) and [Webhook](https://clubhouse.io/) APIs.
+A client library for the [clubhouse.io](https://clubhouse.io/) [v2 REST](https://clubhouse.io/api/rest/v2/) and [Webhook](https://clubhouse.io/api/webhook/v1/) APIs.
 
 WIP
 
 ## Installation
 
-Once [available in Hex](https://hex.pm/docs/publish), the package can be installed
+Once [available in Hex](https://hex.pm/packages/ex_clubhouse), the package can be installed
 by adding `ex_clubhouse` to your list of dependencies in `mix.exs`:
 
 This isn't ready yet, so don't try.
@@ -25,5 +25,5 @@ be found at [https://hexdocs.pm/ex_clubhouse](https://hexdocs.pm/ex_clubhouse).
 
 ## TODO
 
-- [ ] Add TODO plan
+- [x] Add TODO plan
 - [ ] Add SSL support
