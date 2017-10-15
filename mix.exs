@@ -38,6 +38,7 @@ defmodule ExClubhouse.Mixfile do
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:httpoison, "~> 0.13.0"},
       {:poison, "~> 3.1.0"},
+      {:ecto, "~> 2.1.4"},
     ]
   end
 end

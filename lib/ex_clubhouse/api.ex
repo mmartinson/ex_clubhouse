@@ -7,7 +7,12 @@ defmodule ExClubhouse.API do
   @doc """
   Fetch all projects of authenticated user.
   """
-  defdelegate projects, to: Projects
+  defdelegate projects(), to: Projects
+
+  @doc """
+  Fetch project by id.
+  """
+  defdelegate project(id), to: Projects
 
   @doc """
   Fetch all stories in a project.
