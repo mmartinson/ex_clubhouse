@@ -8,7 +8,7 @@ defmodule ExClubhouse.Mapper do
   end
 
   def map(data, schema) when is_map(data) do
-    schema.changeset(struct(schema), data)
+    schema.mapping_changeset(struct(schema), data)
     |> Ecto.Changeset.apply_changes
   end
 end
